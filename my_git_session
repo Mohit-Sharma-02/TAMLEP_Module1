@@ -1,0 +1,221 @@
+Script started on 2023-11-08 10:26:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ [7m$ git config --list --show-origin[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ git config --list --show-origin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[?2004l[?1h=file:/home/mohitsharma/.gitconfig       user.name=Mohit Sharma[m
+file:/home/mohitsharma/.gitconfig       user.email=mohit.sharma02@tigeranalytics.com[m
+[K[?1l>[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git config --global init.defaultBranch main
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git config --global init.defaultBranch main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Psudo apt get install gitgit config --global init.defaultBranch main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit config --global init.defaultBranch main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Psudo apt get install gitexit[Kfind . -name "*.txt"exit[Ksudo apt get install gitgit config --global init.defaultBranch main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit config --list --show-origin
+[?2004l[?1h=file:/home/mohitsharma/.gitconfig       user.name=Mohit Sharma[m
+file:/home/mohitsharma/.gitconfig       user.email=mohit.sharma02@tigeranalytics.com[m
+file:/home/mohitsharma/.gitconfig       init.defaultbranch=main[m
+[K[?1l>[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git config --list --show-origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?1h=user.name=Mohit Sharma[m
+user.email=mohit.sharma02@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git config --help
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                         Git Manual                                        GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] name [value[m  [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get name [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get-all n[m ame [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--name-onl[m y] --get-regexp name_regex [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key[m
+       separated by a dot, and the value will be escaped.[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git help config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                         Git Manual                                        GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] name [value[m  [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get name [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get-all n[m ame [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--name-onl[m y] --get-regexp name_regex [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key[m
+       separated by a dot, and the value will be escaped.[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git add --e[Khek[Klp
+[?2004l[?1049h[22;0;0t[?1h=GIT-ADD(1)                                            Git Manual                                           GIT-ADD(1)[m
+[m
+[1mNAME[0m[m
+       git-add - Add file contents to the index[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4madd[24m [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p][m
+                 [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]] [--sparse][m
+                 [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize][m
+                 [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]][m
+                 [--] [<pathspec>...][m
+[m
+[1mDESCRIPTION[0m[m
+       This command updates the index using the current content found in the working tree, to prepare the content[m
+       staged for the next commit. It typically adds the current content of existing paths as a whole, but with some[m
+       options it can also be used to add content with only part of the changes made to the working tree files[m
+       applied, or remove paths that do not exist in the working tree anymore.[m
+[m
+       The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the[m
+       contents of the next commit. Thus after making any changes to the working tree, and before running the commit[m
+       command, you must use the [1madd[0m command to add any new or modified files to the index.[m
+[m
+       This command can be performed multiple times before a commit. It only adds the content of the specified[m
+       file(s) at the time the add command is run; if you want subsequent changes included in the next commit, then[m
+       you must run [1mgit[0m [1madd[0m again to add the new content to the index.[m
+[m
+       The [1mgit[0m [1mstatus[0m command can be used to obtain a summary of which files have changes that are staged for the[m
+       next commit.[m
+[m
+[7m Manual page git-add(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git add -h
+[?2004lusage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ pwd
+[?2004l/home/mohitsharma
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ ls -F
+[?2004lmy_git_session  my_linux_wsl_session  my_unix_session  [0m[01;34mproject[0m/  [01;34mshell-lesson-data[0m/  [01;34mthesis[0m/
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ [7m/home/mohitsharma[27m/home/mohitsharmal/home/mohitsharmas/home/mohitsharma /home/mohitsharma[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/project
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ ls project/data
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ ls [K[K[Kls project/data[K[K[K[Kresults
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~[01;32mmohitsharma@TIGER03672[00m:[01;34m~[00m$ cd [7m/home/mohitsharma[27m/home/mohitsharma/project
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git init
+[?2004lInitialized empty Git repository in /home/mohitsharma/project/.git/
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ ls
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ ls -Fa
+[?2004l[0m[01;34m.[0m/  [01;34m..[0m/  [01;34m.git[0m/  [01;34mdata[0m/  [01;34mresults[0m/
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ nano ra[K[Ktext_file[K[K[K[K[K[K[K[K[Kexperimental-text-file.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                   experimental-text-file.txt                                             [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;77H(B[0;7m*[119G(B[m[?12l[?25h[2dT[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[28d[K[3d[?12l[?25h[?25l[?12l[?25hI[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hk[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[4d[?12l[?25h[?25l[?12l[?25hT[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h,[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[5d[?12l[?25h[?25l[?12l[?25hT[?25l[?12l[?25hH[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hj[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hr[?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hy[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: experimental-text-file.txt                                                                          [28;47H(B[m[?12l[?25h[?25l[53G[1K (B[0;7m[ Writing... ](B[m[K[1;77H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[5;68H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ cat experimental-text-file.txt 
+[?2004lThis is a text file
+I will be making changes in this file
+This file will then be modified, staged and commited
+This is not a code file and will be used for learning purposes only
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mexperimental-text-file.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git add experimental-text-file.txt 
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   experimental-text-file.txt[m
+
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ nano README[K[K[K[K[K[K[K[K[K[K[Kechi [K[Ko 'My Project' > README
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ ls -FA
+[?2004l[0m[01;34m.git[0m/  README  [01;34mdata[0m/  experimental-text-file.txt  [01;34mresults[0m/
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ gir[Kt status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   experimental-text-file.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git add README
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   experimental-text-file.txt[m
+
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ nano experimental-text-file.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 4 lines ](B[m[H(B[0;7m  GNU nano 6.2                                   experimental-text-file.txt                                             [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dThis is a text file[3dI will be making changes in this file[4dThis file will then be modified, staged and commited[5dThis is not a code file and will be used for learning purposes only[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[5;68H[?25l[1;77H(B[0;7m*[119G(B[m[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[?12l[?25hF[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h [?25l[28d[K[?12l[?25h[7;14Hm[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: experimental-text-file.txt                                                                          [28;47H(B[m[?12l[?25h[?25l[53G[1K (B[0;7m[ Writing... ](B[m[K[1;77H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 6 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[7;31H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git a[Kstatus
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   experimental-text-file.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   experimental-text-file.txt[m
+
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git add experimental-text-file.txt 
+[?2004l[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   experimental-text-file.txt[m
+
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ git status --shr[Kort
+[?2004l[32mA[m  README
+[32mA[m  experimental-text-file.txt
+[?2004h]0;mohitsharma@TIGER03672: ~/project[01;32mmohitsharma@TIGER03672[00m:[01;34m~/project[00m$ nano experimental-text-file.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 6.2                                   experimental-text-file.txt                                             [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dThis is a text file[3dI will be making changes in this file[4dThis file will then be modified, staged and commited[5dThis is not a code file and will be used for learning purposes only[7dFirst change made in this file[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25hF[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h[?25l[1;115H(B[0;7mM[28d(B[m[K[1;119H[?12l[?25h[7d(B[0;7mFirst change(B[m[?25l[1;77H(B[0;7m*[115G    (B[m[7dCFirst change made in this fileC[?12l[?25h[?25l[?12l[?25hHFirst change made in this fileCH[?25l[?12l[?25haFirst change made in this fileCHa[?25l[?12l[?25hnFirst change made in this file[5G[?25l[?12l[?25hgFirst change made in this file[6G[?25l[?12l[?25heFirst change made in this file[7G[?25l[?12l[?25h First change made in this file[8G[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hhFirst change made in this fileCh[?25l[?12l[?25haFirst change made in this fileCha[?25l[?12l[?25hnFirst change made in this file[5G[?25l[?12l[?25hgFirst change made in this file[6G[?25l[?12l[?25heFirst change made in this file[7G[?25l[?12l[?25h First change made in this file[8G[?25l[?12l[?25hnFirst change made in this file[7;9H[?25l[?12l[?25huFirst change made in this file[7;10H[?25l[?12l[?25hmFirst change made in this file[7;11H[?25l[?12l[?25hbFirst change made in this file[7;12H[?25l[?12l[?25heFirst change made in this file[7;13H[?25l[?12l[?25hrFirst change made in this file[7;14H[?25l[?12l[?25h First change made in this file[7;15H[?25l[?12l[?25h-First change made in this file[7;16H[?25l[?12l[?25h First change made in this file[7;17H[?25l[?12l[?25h1First change made in this file[7;18H[?25l[?12l[?25h First change made in this file[7;19H[?25l[?12l[?25h,First change made in this file[7;20H[?25l[?12l[?25h[7;50H[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[?12l[?25hC[?25l[?12l[?25hH[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hn[?
